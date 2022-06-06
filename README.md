@@ -1,11 +1,11 @@
 # Anything CTF
--
+
 A list of Capture The Flag (CTF) stuff for my own reference as well as for everyone's education.
 
-###Contributing
+### Contributing
 Well, I haven't thought of that yet, will fill this up when this page gets bigger by any chance
 
-###Contents
+### Contents
 - [Tools](#tools)
 	- [Forensics](#forensics)
 	- [Web](#web)
@@ -16,21 +16,21 @@ Well, I haven't thought of that yet, will fill this up when this page gets bigge
 	- [Crypto](#crypto-walkthroughs)
 - [Miscellaneous](#miscellaneous)
 
-##Tools
+## Tools
 
-###Forensics
+### Forensics
 
-###Web
+### Web
 
-###Crypto
+### Crypto
 
-###Mobile
+### Mobile
 
-###Reverse Engineering
+### Reverse Engineering
 
-##Walkthroughs
+## Walkthroughs
 
-###Crypto Walkthroughs
+### Crypto Walkthroughs
 - [Introduction to CryptoHack](/walkthroughs/intro-to-crypto-hack.md)
 
-##Miscellaneous
+## Miscellaneous
