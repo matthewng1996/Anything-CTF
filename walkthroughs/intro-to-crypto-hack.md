@@ -1,5 +1,4 @@
 ## ASCII
-
 ![](../images/intro-to-cryptohack-ascii.png)
 A rather simple challenge, and the hint being the use of chr() or ord() function in Python.
 
@@ -54,7 +53,8 @@ print("\n")
 Flag:
 **crypto/Base+64+Encoding+is+Web+Safe/**
 
-##Bytes and Big Integers
+## Bytes and Big Integers
+
 ![](../images/intro-to-cryptohack-bytes-bigint.png)
 For this challenge, given a long, we need to convert it into hex bytes, followed by ascii. This would require a recap of our first challenge!
 
