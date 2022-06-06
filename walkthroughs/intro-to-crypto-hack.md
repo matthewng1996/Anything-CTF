@@ -1,4 +1,5 @@
-##ASCII
+## ASCII
+
 ![](../images/intro-to-cryptohack-ascii.png)
 A rather simple challenge, and the hint being the use of chr() or ord() function in Python.
 
@@ -14,7 +15,7 @@ print("\n")
 Flag:
 **crypto{ASCII_pr1nt4bl3}**
 
-##HEX
+## HEX
 ![](../images/intro-to-cryptohack-hex.png)
 Another simple challenge with the hint being given that to change hex into bytes or vice versa, we can use bytes.fromhex() or .hex() methods respectively.
 
@@ -34,7 +35,7 @@ flag = "72bca9b68fc16ac7beeb8f849dca1d8a783e8acf9679bf9269f7bf"
 Flag:
 **crypto{You _ will _ be _ working _ with _ hex _ strings _ a _ lot}**
 
-##Base64
+## Base64
 ![](../images/intro-to-cryptohack-base64.png)
 For this challenge, we need to decode a given string to hex and then encode it into Base64.
 
@@ -72,7 +73,7 @@ print("\n")
 Flag:
 **crypto{3nc0d1n6_ 4ll _ 7h3 _ w4y _ d0wn}**
 
-##XOR Starter
+## XOR Starter
 ![](../images/intro-to-cryptohack-xor-starter.png)
 This challenge teaches us how to use XOR, which is commonly used in encryption schemes for cryptographic challenges.
 
@@ -90,7 +91,7 @@ print("\n")
 Flag:
 **aloha**
 
-##XOR Properties
+## XOR Properties
 ![](../images/intro-to-cryptohack-xor-properties.png)
 This challenge teaches us the associative properties of XOR, which can be vital if you see a lot of XOR operations on a cryptographic functions, when it can be further simplified having these knowledge.
 
@@ -114,7 +115,7 @@ print("\n")
 Flag:
 **crypto{x0r _ i5 _ ass0c1at1v3}**
 
-##Favourite Byte
+## Favourite Byte
 ![](../images/intro-to-cryptohack-favourite-byte.png)
 For this challenge, we know that we have a secret byte to XOR with the string in order to get the flag. The secret byte is a single byte, which is 8 bits, giving us a total of (2^8 - 1) or 255 combinations, out of which one is our secret byte. Hence, solving this challenge requires some bruteforcing.
 
@@ -141,7 +142,7 @@ Flag:
 
 Bonus (Secret byte): **16**
 
-##You either know, XOR you don't
+## You either know, XOR you don't
 ![](../images/intro-to-cryptohack-either-know-or-dont.png)
 This is a rather tricky challenge, the only clue present is that we just need to know the flag format. And based on the title, the only way to get it is through XOR operations.
 
